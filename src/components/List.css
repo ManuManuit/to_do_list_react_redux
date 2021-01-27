@@ -1,0 +1,29 @@
+.todo__list {
+  background: crimson;
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+
+.todo__list p {
+  padding: 10px;
+  color: white;
+  font-size: 20px;
+  font-weight: 100;
+  margin-left: 30px;
+  padding-right: 30px;
+  width: 200px;
+}
+
+.todo__list button {
+  background: blue;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  height: 30px;
+  align-items: center;
+  display: flex;
+  font-size: 15px;
+}

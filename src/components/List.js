@@ -2,6 +2,8 @@ import React from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { deleteTodoAction } from "../redux/actions";
 
+import './List.css';
+
 function List() {
   const todos = useSelector((state) => state.todos);
   const dispatch = useDispatch();
@@ -10,10 +12,10 @@ function List() {
     <div>
       {todos.map((todo) => {
         return (
-          <div key={todo.id}>
+          <div key={todo.id} className="todo__list">
             <p>{todo.name} {todo.complete && '🚀 '}</p>
             <button onClick={() => dispatch(deleteTodoAction(todo.id))}>
-              Delete
+              Borrar
             </button>
           </div>
         );

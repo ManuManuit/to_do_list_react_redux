@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { addTodoAction } from "../redux/actions";
 
+import './AddTodo.css';
+
 function AddTodo() {
   const [todo, setTodo] = useState("");
 
@@ -15,7 +17,7 @@ function AddTodo() {
   };
 
   return (
-    <div>
+    <div className="input__todo">
       <input
         type="text"
         value={todo}

@@ -5,12 +5,12 @@ const initialState = {
   todos: [
     {
       id: 0,
-      name: "Go to the gym",
-      complete: false,
+      name: "Ir al gimnasio",
+      complete: true,
     },
     {
       id: 1,
-      name: "Do laundry",
+      name: "Hacer la compra",
       complete: true,
     },
   ],

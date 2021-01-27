@@ -1,0 +1,18 @@
+.input__todo {
+  text-align: center;
+}
+
+.input__todo input {
+  border: none;
+  border-bottom: 1px solid black;
+  margin-right: 10px;
+}
+
+.input__todo button{
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 15px;
+}
